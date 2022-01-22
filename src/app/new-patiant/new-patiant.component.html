@@ -1,0 +1,130 @@
+<form #f="ngForm">
+<div class="Contaianer">
+    <div class="row">
+        <div class="col-lg-2">
+            <h2>New Patiant</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-1">
+            <label>
+                First Name
+            </label>
+        </div>
+        <div class="col-lg-4">
+            <input type="text" class="form-control" ngModel name="Fname">
+        </div>
+
+        <div class="col-lg-1">
+            <label>
+                Last Name
+            </label>
+        </div>
+        <div class="col-lg-4">
+            <input type="text" class="form-control" ngModel name="Lname">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-1">
+            <label>
+                Birth Date
+            </label>
+        </div>
+        <div class="col-lg-4">
+            <input type="text" class="form-control" ngModel name="BDate">
+        </div>
+
+        <div class="col-lg-1">
+            <label>
+                Country
+            </label>
+        </div>
+        <div class="col-lg-4">
+            <select class="form-control" ngModel name="ddlCountry">
+                <option *ngFor="let c of licountry" [value]="c.id">
+                    {{c.name}}
+                </option>
+            </select>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-1">
+            <label>
+                City
+            </label>
+        </div>
+        <div class="col-lg-4">
+            <select class="form-control" ngModel name="ddlCity">
+                <option *ngFor="let c of liCity" [value]="c.id">
+                    {{c.name}}
+                </option>
+            </select>
+        </div>
+
+        <div class="col-lg-1">
+            <label>
+                Room.No
+            </label>
+        </div>
+        <div class="col-lg-4">
+            <select class="form-control" ngModel name="ddlRoom">
+                <option *ngFor="let c of liRoom" [value]="c.id">
+                    {{c.name}}
+                </option>
+            </select>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-1">
+            <label>
+                Bed No
+            </label>
+        </div>
+        <div class="col-lg-4">
+            <select class="form-control" ngModel name="ddlBed">
+                <option *ngFor="let c of liBed" [value]="c.id">
+                    {{c.name}}
+                </option>
+            </select>
+        </div>
+
+        <div class="col-lg-1">
+            <label>
+                Doctor
+            </label>
+        </div>
+        <div class="col-lg-4">
+            <select class="form-control"ngModel name="ddlDoctor">
+                <option *ngFor="let c of liDoctor" [value]="c.id">
+                    {{c.name}}
+                </option>
+            </select>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-1">
+            <label>
+                Department
+            </label>
+        </div>
+        <div class="col-lg-4">
+            <select class="form-control" ngModel name="ddldept">
+                <option *ngFor="let c of liDeprtment" [value]="c.id">
+                    {{c.name}}
+                </option>
+            </select>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-1">
+          <input type="button" class="btn btn-primary" value="Save" (click)="OnSave()">
+        </div>
+       
+    </div>
+</div>
+</form>

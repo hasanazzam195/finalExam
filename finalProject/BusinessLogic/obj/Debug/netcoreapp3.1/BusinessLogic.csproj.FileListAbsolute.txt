@@ -1,0 +1,16 @@
+C:\inetpub\wwwroot\finalProject\BusinessLogic\bin\Debug\netcoreapp3.1\BusinessLogic.deps.json
+C:\inetpub\wwwroot\finalProject\BusinessLogic\bin\Debug\netcoreapp3.1\BusinessLogic.runtimeconfig.json
+C:\inetpub\wwwroot\finalProject\BusinessLogic\bin\Debug\netcoreapp3.1\BusinessLogic.runtimeconfig.dev.json
+C:\inetpub\wwwroot\finalProject\BusinessLogic\bin\Debug\netcoreapp3.1\BusinessLogic.dll
+C:\inetpub\wwwroot\finalProject\BusinessLogic\bin\Debug\netcoreapp3.1\BusinessLogic.pdb
+C:\inetpub\wwwroot\finalProject\BusinessLogic\bin\Debug\netcoreapp3.1\DataAccess.dll
+C:\inetpub\wwwroot\finalProject\BusinessLogic\bin\Debug\netcoreapp3.1\DataAccess.pdb
+C:\inetpub\wwwroot\finalProject\BusinessLogic\obj\Debug\netcoreapp3.1\BusinessLogic.csproj.AssemblyReference.cache
+C:\inetpub\wwwroot\finalProject\BusinessLogic\obj\Debug\netcoreapp3.1\BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\inetpub\wwwroot\finalProject\BusinessLogic\obj\Debug\netcoreapp3.1\BusinessLogic.AssemblyInfoInputs.cache
+C:\inetpub\wwwroot\finalProject\BusinessLogic\obj\Debug\netcoreapp3.1\BusinessLogic.AssemblyInfo.cs
+C:\inetpub\wwwroot\finalProject\BusinessLogic\obj\Debug\netcoreapp3.1\BusinessLogic.csproj.CoreCompileInputs.cache
+C:\inetpub\wwwroot\finalProject\BusinessLogic\obj\Debug\netcoreapp3.1\BusinessLogic.csproj.CopyComplete
+C:\inetpub\wwwroot\finalProject\BusinessLogic\obj\Debug\netcoreapp3.1\BusinessLogic.dll
+C:\inetpub\wwwroot\finalProject\BusinessLogic\obj\Debug\netcoreapp3.1\BusinessLogic.pdb
+C:\inetpub\wwwroot\finalProject\BusinessLogic\obj\Debug\netcoreapp3.1\BusinessLogic.genruntimeconfig.cache
